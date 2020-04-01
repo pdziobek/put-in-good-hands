@@ -1,12 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# React app
-/src/App.css
-/src/App.test.js
-/src/index.css
-/src/logo.svg
-/src/setupTests.js
-
 
 # dependencies
 /package-lock.json
