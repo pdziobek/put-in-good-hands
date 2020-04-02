@@ -32,9 +32,8 @@ header {
       display: flex;
       justify-content: center;
 
-      button {
+      .button {
         text-transform: uppercase;
-        color: var(--main-txt);
         background-color: white;
         border: 1px var(--main-txt) solid;
         font-size: 2em;
@@ -42,7 +41,10 @@ header {
         width: 310px;
         padding: 10px 50px;
         margin: 15px;
+        text-decoration: none;
+        color: var(--main-txt);
       }
+
     }
 
   }

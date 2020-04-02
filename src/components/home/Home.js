@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import HomeHeader from "./01HomeHeader/HomeHeader";
 import HomeThreeColumns from "./02HomeThreeColumns/HomeThreeColumns";
 import HomeStepsToDonate from "./03HomeStepsToDonate/HomeStepsToDonate";
@@ -12,9 +13,10 @@ export default function Home() {
     return (
         <>
             <HomeHeader/>
-            {/*<HomeThreeColumns/>*/}
-            {/*<HomeStepsToDonate/>*/}
-            {/*<HomeAboutUs/>*/}
+
+            <HomeThreeColumns/>
+            <HomeStepsToDonate id='home-steps-to-donate'/>
+            <HomeAboutUs id='home-about-us'/>
             {/*<HomeWhoWeHelp/>*/}
             {/*<HomeContactForm/>*/}
         </>

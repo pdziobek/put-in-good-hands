@@ -2,6 +2,7 @@ import React from 'react';
 import decoration from '../../../assets/Decoration.svg';
 import heroImage from '../../../assets/Home-Hero-Image.jpg';
 import './style.scss';
+import {Link} from "react-router-dom";
 
 export default function HomeHeader() {
     return (
@@ -17,8 +18,8 @@ export default function HomeHeader() {
                     <img className='decoration' src={decoration}/>
 
                 <div className='buttons'>
-                    <button>oddaj <br/>rzeczy</button>
-                    <button>zorganizuj<br/> zbiórkę</button>
+                    <Link className='button' to="/login">oddaj <br/>rzeczy</Link>
+                    <Link className='button' to="/login">zorganizuj<br/> zbiórkę</Link>
                 </div>
                 </section>
 
