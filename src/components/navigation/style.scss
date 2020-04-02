@@ -1,0 +1,22 @@
+//LOGIN NAVBAR
+.login-nav {
+  margin-top: 2em;
+  display: flex;
+  justify-content: flex-end;
+
+.login-list {
+    display: flex;
+    list-style: none;
+
+    .login-list-item {
+      text-decoration: none;
+      color: var(--side-txt);
+      padding: 10px;
+    }
+    .login-list-item:hover {
+      border: 1px var(--accent1) solid;
+    }
+  }
+}
+
+//NAVIGATION NAVBAR

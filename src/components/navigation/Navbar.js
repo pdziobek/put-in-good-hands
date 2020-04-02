@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarLogin from "./NavbarLogin";
-import {Link} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
+import './style.scss';
 
 export default function Navbar() {
     return (

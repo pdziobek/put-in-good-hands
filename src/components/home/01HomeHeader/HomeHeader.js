@@ -6,10 +6,7 @@ import './style.scss';
 export default function HomeHeader() {
     return (
         <header>
-                <div>
-                    {/*<img src={heroImage}/>*/}
-                </div>
-
+                <div className='left-home-header'/>
 
                 <div>
                     <h1>Zacznij Pomagać!</h1>
