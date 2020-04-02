@@ -1,9 +1,51 @@
 header {
+  display: flex;
 
-  //.left-home-header{
-  //  background-image: url('../../../assets/Home-Hero-Image.jpg');
-  //
-  //}
+
+  .left-home-header {
+    position: relative;
+    top: -180px;
+    width: 50%;
+    height: 100vh;
+    background-image: url('../../../assets/Home-Hero-Image.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+  }
+
+  .right-home-header {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+
+    h1, h2 {
+      font-weight: 500;
+    }
+
+    .decoration{
+      margin-top: 1em;
+      margin-bottom: 3em;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+
+      button {
+        text-transform: uppercase;
+        color: var(--main-txt);
+        background-color: white;
+        border: 1px var(--main-txt) solid;
+        font-size: 2em;
+        font-weight: 300;
+        width: 310px;
+        padding: 10px 50px;
+        margin: 15px;
+      }
+    }
+
+  }
 
 
 

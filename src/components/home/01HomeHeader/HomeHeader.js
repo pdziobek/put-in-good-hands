@@ -6,17 +6,22 @@ import './style.scss';
 export default function HomeHeader() {
     return (
         <header>
-                <div className='left-home-header'/>
 
-                <div>
+                <section className='left-home-header'/>
+
+
+
+                <section className='right-home-header'>
                     <h1>Zacznij Pomagać!</h1>
                     <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
-                    <img src={decoration}/>
+                    <img className='decoration' src={decoration}/>
+
+                <div className='buttons'>
+                    <button>oddaj <br/>rzeczy</button>
+                    <button>zorganizuj<br/> zbiórkę</button>
                 </div>
-                <div>
-                    <button>oddaj rzeczy</button>
-                    <button>zorganizuj zbiórkę</button>
-                </div>
+                </section>
+
         </header>
     )
 };
