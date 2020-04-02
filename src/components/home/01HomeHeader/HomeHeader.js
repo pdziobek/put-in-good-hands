@@ -1,31 +1,25 @@
 import React from 'react';
+import decoration from '../../../assets/Decoration.svg';
+import heroImage from '../../../assets/Home-Hero-Image.jpg';
+import './style.scss';
 
 export default function HomeHeader() {
     return (
         <header>
-            <nav className='login'>
-                <ul>
-                    <li>Zaloguj</li>
-                    <li>Załóż konto</li>
-                </ul>
-            </nav>
-            <nav className='navigation'>
-                <ul>
-                    <li>Start</li>
-                    <li>O co chodzi?</li>
-                    <li>O nas</li>
-                    <li>Fundacja i organizacje</li>
-                    <li>Kontakt</li>
-                </ul>
-            </nav>
-            <section>
-                <div>image</div>
+                <div>
+                    {/*<img src={heroImage}/>*/}
+                </div>
+
+
                 <div>
                     <h1>Zacznij Pomagać!</h1>
                     <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
+                    <img src={decoration}/>
                 </div>
-            </section>
-
+                <div>
+                    <button>oddaj rzeczy</button>
+                    <button>zorganizuj zbiórkę</button>
+                </div>
         </header>
     )
 };

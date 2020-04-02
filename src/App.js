@@ -7,21 +7,28 @@ import {
   Switch,
   NavLink, BrowserRouter,
 } from 'react-router-dom';
+//STYLE
+import './style.scss';
 //COMPONENTS
 import Home from "./components/home/Home";
+import Navbar from "./components/navigation/Navbar";
+import Login from "./components/login/Login";
+import Register from "./components/login/Register";
 
 function App() {
   return (
-      <>
-      <div>Hello World! I am always here above the routing</div>
-          {/*<Navbar/>*/}
       <BrowserRouter>
-          <Switch>
-              <Route exact path='/' component={Home} />
-          </Switch>
+          <section className='container'>
+              <Navbar/>
+
+                  <Switch>
+                      <Route exact path='/' component={Home} />
+                      <Route exact path='/login' component={Login} />
+                      <Route exact path='/register' component={Register} />
+                  </Switch>
+          </section>
 
       </BrowserRouter>
-      </>
   );
 }
 

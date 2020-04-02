@@ -11,13 +11,12 @@ import HomeContactForm from "./06HomeContactForm/HomeContactForm";
 export default function Home() {
     return (
         <>
-        <div>Welcome in Home</div>
             <HomeHeader/>
-            <HomeThreeColumns/>
-            <HomeStepsToDonate/>
-            <HomeAboutUs/>
-            <HomeWhoWeHelp/>
-            <HomeContactForm/>
+            {/*<HomeThreeColumns/>*/}
+            {/*<HomeStepsToDonate/>*/}
+            {/*<HomeAboutUs/>*/}
+            {/*<HomeWhoWeHelp/>*/}
+            {/*<HomeContactForm/>*/}
         </>
     )
 };
