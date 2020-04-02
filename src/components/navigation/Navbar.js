@@ -8,7 +8,7 @@ export default function Navbar() {
         <>
             <NavbarLogin/>
             <nav className='navigation'>
-                <ul>
+                <ul className='navigation-list'>
                     <li>Start</li>
                     <li>O co chodzi?</li>
                     <li>O nas</li>
