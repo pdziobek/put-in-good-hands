@@ -1,0 +1,35 @@
+.columns-container {
+  display: flex;
+  background-image: url("../../../assets/3-Columns-Background.png");
+
+  .column {
+    justify-content: space-between;
+    padding: 30px 60px;
+  }
+
+    .three-columns-number {
+      text-align: center;
+      font-size: 4em;
+      font-weight: lighter;
+      color: var(--accent2);
+      margin: 20px;
+
+
+    }
+
+    .three-columns-title {
+      text-align: center;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: var(--main-txt);
+
+    }
+
+    .three-columns-txt {
+      text-align: center;
+      font-size: 1em;
+      color: var(--main-txt);
+      font-weight: lighter;
+
+    }
+  }
