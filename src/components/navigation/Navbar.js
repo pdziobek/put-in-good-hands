@@ -11,15 +11,16 @@ export default function Navbar() {
             <nav className='navigation'>
                 <ul className='navigation-list'>
 
+
                     <li>Start</li>
 
                     <li>
-                        <Link activeClass='active' id='home-steps-to-donate' to='home-steps-to-donate' spy={true} smooth={true} offset={200} duration= {500}>
+                        <Link id="home-simple-steps" to='home-simple-steps' smooth={true} duration= {1200}>
                             O co chodzi?
                         </Link>
                     </li>
 
-                    <li><Link activeClass='active' id='home-about-us' to='home-about-us' spy={true} smooth={true} offset={300} duration= {500}>
+                    <li><Link id='home-about-us' to='home-about-us' smooth={true} duration= {1200}>
                         O nas
                     </Link>
                     </li>
