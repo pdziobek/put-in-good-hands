@@ -19,7 +19,7 @@ function App() {
   return (
       <BrowserRouter>
           <section className='container'>
-              <Navbar/>
+                  <Navbar/>
 
                   <Switch>
                       <Route exact path='/' component={Home} />
@@ -33,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+// SPRAWDZAM CZY ZAPISAŁ SIĘ COMMIT

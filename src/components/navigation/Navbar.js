@@ -6,7 +6,7 @@ import HomeThreeColumns from "../home/02HomeThreeColumns/HomeThreeColumns";
 
 export default function Navbar() {
     return (
-        <>
+        <div className="nav-container">
             <NavbarLogin/>
             <nav className='navigation'>
                 <ul className='navigation-list'>
@@ -15,7 +15,7 @@ export default function Navbar() {
                     <li>Start</li>
 
                     <li>
-                        <Link id="home-simple-steps" to='home-simple-steps' smooth={true} duration= {1200}>
+                        <Link to='home-simple-steps' smooth={true} duration= {1200}>
                             O co chodzi?
                         </Link>
                     </li>
@@ -29,6 +29,6 @@ export default function Navbar() {
                     <li>Kontakt</li>
                 </ul>
             </nav>
-        </>
+        </div>
     )
 }
