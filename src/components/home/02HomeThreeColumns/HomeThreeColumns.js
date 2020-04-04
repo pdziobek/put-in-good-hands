@@ -3,7 +3,7 @@ import './style.scss';
 
 export default function HomeThreeColumns() {
     return (
-        <section className='columns-container' id="home-simple-steps">
+        <section className='columns-container'>
 
             <div className='column'>
                 <p className='three-columns-number'>10</p>

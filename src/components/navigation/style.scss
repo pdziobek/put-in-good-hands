@@ -15,9 +15,11 @@
       text-decoration: none;
       color: var(--side-txt);
       padding: 10px 15px;
+      border: 1px transparent solid;
     }
     .login-list-item:hover {
       border: 1px var(--accent1) solid;
+      cursor: pointer;
     }
   }
 }
@@ -37,9 +39,11 @@
       text-decoration: none;
       color: var(--main-txt);
       padding: 10px 15px;
+      border: 1px transparent solid;
     }
     li:hover {
       border: 1px var(--main-txt) solid;
+      cursor: pointer;
     }
   }
 }

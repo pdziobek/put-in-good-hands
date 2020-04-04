@@ -20,7 +20,7 @@ export default function Navbar() {
                         </Link>
                     </li>
 
-                    <li><Link id='home-about-us' to='home-about-us' smooth={true} duration= {1200}>
+                    <li><Link to='home-about-us' smooth={true} duration= {1200}>
                         O nas
                     </Link>
                     </li>

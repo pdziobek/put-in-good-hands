@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
 export default function HomeSimpleSteps() {
     return (
         <>
-            <section className='steps-intro'>
+            <section className='steps-intro' id="home-simple-steps">
                 <h4>Wystarczą 4 proste kroki</h4>
                 <img className='decoration' src={decoration}/>
             </section>
