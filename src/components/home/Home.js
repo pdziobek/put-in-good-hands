@@ -6,7 +6,7 @@ import HomeHeader from "./01HomeHeader/HomeHeader";
 import HomeThreeColumns from "./02HomeThreeColumns/HomeThreeColumns";
 import HomeSimpleSteps from "./03HomeSimpleSteps/HomeSimpleSteps";
 import HomeAboutUs from "./04HomeAboutUs/HomeAboutUs";
-import HomeWhoWeHelp from "./05HomeWhoWeHelp/HomeWhoWeHelp";
+import HomeWhoWeHelp from "./05HomeWhoWeHelp/01HomeWhoWeHelp";
 import HomeContactForm from "./06HomeContactForm/HomeContactForm";
 
 export default function Home() {

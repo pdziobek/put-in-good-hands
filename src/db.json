@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "foundations": [
+        {
+          "id": 1,
+          "name": "Fundacja “Dbam o Zdrowie”",
+          "description": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+          "donation": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+        },
+        {
+          "id": 2,
+          "name": "Fundacja “Dla dzieci”",
+          "description": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+          "donation": "ubrania, meble, zabawki"
+        },
+        {
+          "id": 3,
+          "name": "Fundacja “Bez domu”",
+          "description": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+          "donation": "ubrania, jedzenie, ciepłe koce"
+        },
+        {
+          "id": 4,
+          "name": "Fundacja “Kocham Sport”",
+          "description": "Cel i misja: Pomoc osobom chcącym uprawiać sport.",
+          "donation": "ubrania sportowe, skakanki, hantle, kettle, hula-hop"
+        },
+        {
+          "id": 5,
+          "name": "Fundacja “Dresem być”",
+          "description": "Cel i misja: Pomoc w wykreowaniu stylu dresowego.",
+          "donation": "kurtki ortalionowe, dresy bawełniane, bluzy z kapturem"
+        },
+        {
+          "id": 6,
+          "name": "Fundacja “Sam stworzę swój świat”",
+          "description": "Cel i misja: Pomoc dla osób chcących wyżyć się artystycznie.",
+          "donation": "farbki, naczynia z jednolitym kolorem, pędzelki, arkusze papieru itp."
+        },
+        {
+          "id": 7,
+          "name": "Fundacja “Dziewczynka z zapałkami”",
+          "description": "Cel i misja: Pomoc osobom zagrzać się w zimię.",
+          "donation": "zimowe ubrania, ciepłe koce, śpiwory"
+        },
+        {
+          "id": 8,
+          "name": "Fundacja “Na plaży fajnie jest”",
+          "description": "Cel i misja: Pomoc w otrzymaniu niezbędnych akcesoriów na plażę.",
+          "donation": "stroje kąpielowe, akcesoria dmuchane, ręczniki i koce, parasolki"
+        },
+        {
+          "id": 9,
+          "name": "Fundacja “Ani kropla deszczu”",
+          "description": "Cel i misja: Pomoc w ochronie przed deszczem.",
+          "donation": "kurtki przeciwdeszczowe, parasole, buty nieprzemakalne"
+        }
+      ]
+    },
+
+    // ORGANIZACJE POZARZĄDOWE
+    {
+      "organizations": [
+        {
+          "id": 1,
+          "name": "Organizacja “Lorem Ipsum 1””",
+          "description": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "donation": "Egestas, sed, tempus"
+        },
+        {
+          "id": 2,
+          "name": "Organizacja “Lorem Ipsum 2””",
+          "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "donation": "Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 3,
+          "name": "Organizacja “Lorem Ipsum 3””",
+          "description": "Scelerisque in dictum non consectetur a erat nam.",
+          "donation": "Mi, quis, hendrerit, dolor"
+        },
+        {
+          "id": 4,
+          "name": "Organizacja “Lorem Ipsum 4””",
+          "description": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+          "donation": "Egestas, sed, tempus"
+        },
+        {
+          "id": 5,
+          "name": "Organizacja “Lorem Ipsum 5””",
+          "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+          "donation": "Ut, aliquam, purus, sit, amet"
+        },
+        {
+          "id": 6,
+          "name": "Organizacja “Lorem Ipsum 6””",
+          "description": "Scelerisque in dictum non consectetur a erat nam.",
+          "donation": "Mi, quis, hendrerit, dolor"
+        }
+      ]
+    },
+
+
+
+    // LOKALNE ZBIÓRKI
+    {
+      "collections": [
+        {
+          "id": 1,
+          "name": "Zbiórka Ubrań",
+          "description": "Zbieramy ubrania dla potrzebujących",
+          "donation": "wszelkie ubrania nadające się do użytku"
+        },
+        {
+          "id": 2,
+          "name": "Zbiórka dla schronisk zwierząt",
+          "description": "Zbieramy suche karmy dla schronisk w Warszawie",
+          "donation": "suche karmy, koce, zabawki dla zwierząt"
+        },
+        {
+          "id": 3,
+          "name": "Zbiórka plastiku",
+          "description": "zbieramy produkty plastikowe na rzecz ochrony planety",
+          "donation": "wszelkie plastikowe przedmioty, zepsute, niezdatne do użytku"
+        }
+      ]
+    }
+  ]
+}
