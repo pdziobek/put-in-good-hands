@@ -1,0 +1,33 @@
+.Home-who-we-help{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h5 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+  }
+  img {
+    margin-bottom: 50px;
+
+  }
+
+  .buttons {
+    display: flex;
+
+    button {
+      background: white;
+      border: 1px transparent solid;
+      padding: 20px 40px;
+    }
+
+    button:hover {
+      border: 1px var(--main-txt) solid;
+      cursor: pointer;
+    }
+  }
+
+
+}

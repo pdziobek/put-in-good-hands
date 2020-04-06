@@ -17,7 +17,7 @@ export default function Home() {
             <HomeThreeColumns/>
             <HomeSimpleSteps id='home-simple-steps'/>
             <HomeAboutUs id='home-about-us'/>
-            {/*<HomeWhoWeHelp/>*/}
+            <HomeWhoWeHelp/>
             {/*<HomeContactForm/>*/}
         </>
     )
