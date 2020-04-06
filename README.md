@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Put in good hands
+Project of place where everyone can give unnecessary items to trusted institutions that will give things to those in need.
 
-## Available Scripts
+### PROJECT PURPOSE
+This project is creating for the purpose of completing my portfolio and to show my skills and knowledge of programming using JavaScript and React library. All the technology used described below.
 
-In the project directory, you can run:
+### INTRODUCTION
+The goal of the project is to create a place where everyone can give unnecessary items to trusted institutions that will give things to those in need.
 
-### `npm start`
+### TECHNOLOGIES
+Project is created with:
+* Create React App - officially supported modern build setup included;
+* javascript ES6;
+* react 16.13.0;
+* json server - local server - in this project will be used to show the list of entities participating in the action
+* HTML with JSX - syntax extension to JavaScript;
+* CSS3 with node-sass 4.13.1 - CSS Pre-processor and Extension tool;
+* babel 7.8.6 (transpiler - source-to-source compiler);
+* react router v4.0 - collection of navigational components
+* React Scroll - Component for animating vertical scrolling.
+* normalize.css - A modern alternative to CSS resets
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### HOW TO RUN THE PROJECT
+* please be sure that you already have installed node.js and git.
+* to run this project , install it locally using npm:
+```
+$ cd ../put-in-good-hands
+$ npm install
+$ npm start
+```
+* open second terminal
+* install json server:
+```
+$ npm install -g json-server 
+$ json-server -p 4000 db.json
+```
+* if in the terminal you will see:
+`Type s + enter at any time to create a snapshot of the database`
+please type s + enter to load database
+* now in your browser you can see fully configured App.
