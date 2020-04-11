@@ -2,6 +2,10 @@ import React from 'react';
 import decoration from '../../../assets/Decoration.svg';
 import './style.scss'
 
+function handle() {
+    fetch('url' + this.id);
+}
+
 export default function HomeWhoWeHelp() {
     return (
         <>
@@ -10,7 +14,7 @@ export default function HomeWhoWeHelp() {
                 <img src={decoration}/>
 
                 <div className='buttons'>
-                    <button>Fundacjom</button>
+                    <button onClick={handle} id="foundations">Fundacjom</button> //fetch()
                     <button>Organizcjom <br/>pozarządowym</button>
                     <button>Lokalnym <br/>zbiórkom</button>
                 </div>

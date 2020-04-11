@@ -1,2 +1,2 @@
 # db.json
-Tablica obiektów entities ma 3 tablice obiektów.
+Tablica obiekt ów entities ma 3 tablice obiektów.

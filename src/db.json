@@ -1,7 +1,10 @@
 {
-  "entities": [
+  "foundations": [
     {
-      "foundations": [
+      "description": "txt"
+    },
+    {
+      "list": [
         {
           "id": 1,
           "name": "Fundacja “Dbam o Zdrowie”",
@@ -57,11 +60,15 @@
           "donation": "kurtki przeciwdeszczowe, parasole, buty nieprzemakalne"
         }
       ]
-    },
-
-    // ORGANIZACJE POZARZĄDOWE
+    }
+  ],
+  // ORGANIZACJE POZARZĄDOWE
+  "organizations": [
     {
-      "organizations": [
+      "description": "txt"
+    },
+    {
+      "list": [
         {
           "id": 1,
           "name": "Organizacja “Lorem Ipsum 1””",
@@ -99,13 +106,15 @@
           "donation": "Mi, quis, hendrerit, dolor"
         }
       ]
-    },
-
-
-
-    // LOKALNE ZBIÓRKI
+    }
+  ],
+  // LOKALNE ZBIÓRKI
+  "collections": [
     {
-      "collections": [
+      "description": "txt"
+    },
+    {
+      "list": [
         {
           "id": 1,
           "name": "Zbiórka Ubrań",
@@ -127,4 +136,4 @@
       ]
     }
   ]
-}
+  ;
