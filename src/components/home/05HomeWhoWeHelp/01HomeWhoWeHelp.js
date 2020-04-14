@@ -48,51 +48,16 @@ export default function HomeWhoWeHelp() {
                 <img src={decoration}/>
 
                 <div className='buttons'>
-                    <button onClick={handleEntities} id="foundations">Fundacjom</button>
-                    <button onClick={handleEntities} id="organizations">Organizcjom <br/>pozarządowym</button>
-                    <button onClick={handleEntities} id="collections">Lokalnym <br/>zbiórkom</button>
+                    <button onClick={handleEntities} content="Foundations" id="foundations" className='entities-button'>Fundacjom</button>
+                    <button onClick={handleEntities} content="Organizations" id="organizations" className='entities-button'>Organizcjom <br/>pozarządowym</button>
+                    <button onClick={handleEntities} content="Collections" id="collections" className='entities-button'>Lokalnym <br/>zbiórkom</button>
                 </div>
 
                 {/*TU KOMPONENTY Z DANYMI Z JSON SERVERA?*/}
-                <Entities chosenFund={entitiesGroup} paginate={paginate} addActiveStyle={addActiveStyle} currentPage={currentPage}/>
+                <Entities chosenEntities={entitiesGroup} paginate={paginate} addActiveStyle={addActiveStyle} currentPage={currentPage}/>
 
             </section>
 
         </>
     )
 };
-
-// return (
-//     <div id="organizations" className="organzations">
-//         <Title content="Who are we helping?" />
-//         <div className="orgs_buttons">
-//             <Button
-//                 content="Foundations"
-//                 className="button small_button active"
-//                 handleClick={handleFunds}
-//             />
-//             <Button
-//                 content="Organizations"
-//                 className="button small_button"
-//                 handleClick={handleFunds}
-//             />
-//             <Button
-//                 content="Local Collections"
-//                 className="button small_button"
-//                 handleClick={handleFunds}
-//             />
-//         </div>
-//         <p>
-//             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-//             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-//             veniam, quis nostrud exercitation ullamco laboris nisi.
-//         </p>
-//         <Foundations
-//             chosenFund={organizationsGroup}
-//             paginate={paginate}
-//             addActiveStyle={addActiveStyle}
-//             currentPage={currentPage}
-//         />
-//     </div>
-// );
-// }
