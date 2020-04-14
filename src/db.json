@@ -62,7 +62,6 @@
       ]
     }
   ],
-  // ORGANIZACJE POZARZĄDOWE
   "organizations": [
     {
       "description": "txt"
@@ -108,7 +107,6 @@
       ]
     }
   ],
-  // LOKALNE ZBIÓRKI
   "collections": [
     {
       "description": "txt"
@@ -136,4 +134,4 @@
       ]
     }
   ]
-  ;
+}

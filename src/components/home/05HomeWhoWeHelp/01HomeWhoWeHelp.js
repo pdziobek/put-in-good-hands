@@ -15,9 +15,10 @@ export default function HomeWhoWeHelp() {
 
     // change entities group
     const handleEntities = (event) => {
-        if (event.target.innerText === "Foundations") {
+        console.log(event.target.innerText, 'inner');
+        if (event.target.id === "Foundations") {
             setEntitiesGroup("foundations");
-        } else if (event.target.innerText === "Organizations") {
+        } else if (event.target.id === "Organizations") {
             setEntitiesGroup("organizations");
         } else {
             setEntitiesGroup("collections");
@@ -48,9 +49,9 @@ export default function HomeWhoWeHelp() {
                 <img src={decoration}/>
 
                 <div className='buttons'>
-                    <button onClick={handleEntities} content="Foundations" id="foundations" className='entities-button'>Fundacjom</button>
-                    <button onClick={handleEntities} content="Organizations" id="organizations" className='entities-button'>Organizcjom <br/>pozarządowym</button>
-                    <button onClick={handleEntities} content="Collections" id="collections" className='entities-button'>Lokalnym <br/>zbiórkom</button>
+                    <button onClick={handleEntities} content="Foundations" id="Foundations" className='entities-button'>Fundacjom</button>
+                    <button onClick={handleEntities} content="Organizations" id="Organizations" className='entities-button'>Organizcjom <br/>pozarządowym</button>
+                    <button onClick={handleEntities} content="Collections" id="Collections" className='entities-button'>Lokalnym <br/>zbiórkom</button>
                 </div>
 
                 {/*TU KOMPONENTY Z DANYMI Z JSON SERVERA?*/}
