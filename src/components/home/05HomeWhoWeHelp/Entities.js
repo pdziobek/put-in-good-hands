@@ -23,18 +23,6 @@ export default function Entities({
     }, [chosenEntities]);
 
 
-    //fetch for description of entities group
-    // const groupDescription = "http://localhost:4000";
-    // fetch(`${groupDescription}/description`)
-    //     .then(response => response.json())
-    //     .then(data => {
-    //         console.log(data);
-    //     })
-    //     .catch(error => {
-    //         console.log(error);
-    //     });
-
-
     // Calculate currently displayed page
     const lastEntity = currentPage * entitiesPerPage;
     const firstEntity = lastEntity - entitiesPerPage;
