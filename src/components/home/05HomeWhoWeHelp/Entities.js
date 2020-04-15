@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
-import axios from "axios";
 import Pagination from "./Pagination";
+import './style.scss'
 
 export default function Entities({
                                      chosenEntities,
@@ -15,14 +15,6 @@ export default function Entities({
     // fetch for data from JSON Server
     useEffect(() => {
         setLoading(true);
-        // const fetchEntities = async () => {
-        //     setLoading(true);
-        //     const response = await axios.get(`http://localhost:4000/${chosenEntities}`);
-        //     console.log(response, 'resp');
-        //     setEntities(response.data);
-        //     setLoading(false);
-        // };
-        // console.log('?');
         console.log(chosenEntities);
         fetch(`http://localhost:4000/${chosenEntities}`)
             .then(res => {
@@ -30,10 +22,24 @@ export default function Entities({
             }).then(data => {setLoading(false);setEntities(data[1])});
     }, [chosenEntities]);
 
+
+    //fetch for description of entities group
+    // const groupDescription = "http://localhost:4000";
+    // fetch(`${groupDescription}/description`)
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log(data);
+    //     })
+    //     .catch(error => {
+    //         console.log(error);
+    //     });
+
+
     // Calculate currently displayed page
     const lastEntity = currentPage * entitiesPerPage;
     const firstEntity = lastEntity - entitiesPerPage;
     console.log(entities, 'xxxxx');
+
     let firstPage = [];
     if (entities.list && entities.list.length) {
         firstPage = entities.list.slice(firstEntity, lastEntity);
@@ -41,21 +47,24 @@ export default function Entities({
     }
 
 
-    // while waiting for server to response, display:
-    // if (loading) {
-    //     return <h3>Loading...</h3>;
-    // }
+    //while waiting for server to response, display:
+    if (loading) {
+        return <h3>Loading...</h3>;
+        //loading powinien zajmowac przestrzen zeby nie przeskakiwalo okno
+    }
 
     return (
         <>
             <ul className="list">
+
                 {firstPage.map((entity, index) => (
+
                     <li key={index}>
                         <div>
                             <h5>{entity.name}</h5>
                             <p>{entity.description}</p>
                         </div>
-                        {/*<p>{entity.list.donation}</p>*/}
+                        <p>{entity.donation}</p>
                     </li>
                 ))}
             </ul>

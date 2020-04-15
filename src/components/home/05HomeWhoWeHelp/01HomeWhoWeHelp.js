@@ -49,9 +49,9 @@ export default function HomeWhoWeHelp() {
                 <img src={decoration}/>
 
                 <div className='buttons'>
-                    <button onClick={handleEntities} content="Foundations" id="Foundations" className='entities-button'>Fundacjom</button>
-                    <button onClick={handleEntities} content="Organizations" id="Organizations" className='entities-button'>Organizcjom <br/>pozarządowym</button>
-                    <button onClick={handleEntities} content="Collections" id="Collections" className='entities-button'>Lokalnym <br/>zbiórkom</button>
+                    <button onClick={handleEntities} id="Foundations" className='entities-button'>Fundacjom</button>
+                    <button onClick={handleEntities} id="Organizations" className='entities-button'>Organizcjom <br/>pozarządowym</button>
+                    <button onClick={handleEntities} id="Collections" className='entities-button'>Lokalnym <br/>zbiórkom</button>
                 </div>
 
                 {/*TU KOMPONENTY Z DANYMI Z JSON SERVERA?*/}
